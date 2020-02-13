@@ -1,0 +1,6 @@
+# terraform files
+.terraform
+
+# OSX files
+*.DS_Store
+
