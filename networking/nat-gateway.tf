@@ -1,5 +1,8 @@
 resource "aws_eip" "nat" {
   vpc = true
+  tags = {
+      Name = "NatGatewayIP"
+  }
 }
 
 resource "aws_nat_gateway" "ewp_natgw" {

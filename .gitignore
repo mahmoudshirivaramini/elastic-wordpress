@@ -1,5 +1,7 @@
 # terraform files
 .terraform
+terraform.tfstate* 
+terraform.out
 
 # OSX files
 *.DS_Store
